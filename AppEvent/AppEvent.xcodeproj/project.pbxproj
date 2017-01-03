@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		A4E50E7E1E1B4A2200ECCE04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E50E7D1E1B4A2200ECCE04 /* AppDelegate.swift */; };
-		A4E50E801E1B4A2200ECCE04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E50E7F1E1B4A2200ECCE04 /* ViewController.swift */; };
 		A4E50E831E1B4A2200ECCE04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E50E811E1B4A2200ECCE04 /* Main.storyboard */; };
 		A4E50E851E1B4A2200ECCE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E50E841E1B4A2200ECCE04 /* Assets.xcassets */; };
 		A4E50E881E1B4A2200ECCE04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E50E861E1B4A2200ECCE04 /* LaunchScreen.storyboard */; };
+		A4E50E9E1E1B4B0600ECCE04 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E50E9C1E1B4B0600ECCE04 /* HomeVC.swift */; };
+		A4E50E9F1E1B4B0600ECCE04 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E50E9D1E1B4B0600ECCE04 /* HomeVC.xib */; };
+		A4E50EA21E1B4B1200ECCE04 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E50EA01E1B4B1200ECCE04 /* SearchVC.swift */; };
+		A4E50EA31E1B4B1200ECCE04 /* SearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E50EA11E1B4B1200ECCE04 /* SearchVC.xib */; };
+		A4E50EA61E1B4B2100ECCE04 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E50EA41E1B4B2100ECCE04 /* CalendarVC.swift */; };
+		A4E50EA71E1B4B2100ECCE04 /* CalendarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E50EA51E1B4B2100ECCE04 /* CalendarVC.xib */; };
+		A4E50EAA1E1B4B3000ECCE04 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E50EA81E1B4B3000ECCE04 /* ProfileVC.swift */; };
+		A4E50EAB1E1B4B3000ECCE04 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E50EA91E1B4B3000ECCE04 /* ProfileVC.xib */; };
+		A4E50EAD1E1B4E4500ECCE04 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E50EAC1E1B4E4500ECCE04 /* TabbarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4E50E7A1E1B4A2200ECCE04 /* AppEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E50E7D1E1B4A2200ECCE04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4E50E7F1E1B4A2200ECCE04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4E50E821E1B4A2200ECCE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4E50E841E1B4A2200ECCE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4E50E871E1B4A2200ECCE04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4E50E891E1B4A2200ECCE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E50E9C1E1B4B0600ECCE04 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A4E50E9D1E1B4B0600ECCE04 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		A4E50EA01E1B4B1200ECCE04 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		A4E50EA11E1B4B1200ECCE04 /* SearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchVC.xib; sourceTree = "<group>"; };
+		A4E50EA41E1B4B2100ECCE04 /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		A4E50EA51E1B4B2100ECCE04 /* CalendarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarVC.xib; sourceTree = "<group>"; };
+		A4E50EA81E1B4B3000ECCE04 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A4E50EA91E1B4B3000ECCE04 /* ProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		A4E50EAC1E1B4E4500ECCE04 /* TabbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,62 @@
 		A4E50E7C1E1B4A2200ECCE04 /* AppEvent */ = {
 			isa = PBXGroup;
 			children = (
+				A4E50E8F1E1B4A5E00ECCE04 /* View */,
 				A4E50E7D1E1B4A2200ECCE04 /* AppDelegate.swift */,
-				A4E50E7F1E1B4A2200ECCE04 /* ViewController.swift */,
 				A4E50E811E1B4A2200ECCE04 /* Main.storyboard */,
 				A4E50E841E1B4A2200ECCE04 /* Assets.xcassets */,
 				A4E50E861E1B4A2200ECCE04 /* LaunchScreen.storyboard */,
 				A4E50E891E1B4A2200ECCE04 /* Info.plist */,
 			);
 			path = AppEvent;
+			sourceTree = "<group>";
+		};
+		A4E50E8F1E1B4A5E00ECCE04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4E50E931E1B4A8300ECCE04 /* Profile */,
+				A4E50E921E1B4A7400ECCE04 /* Calendar */,
+				A4E50E911E1B4A6E00ECCE04 /* Search */,
+				A4E50E901E1B4A6700ECCE04 /* Home */,
+				A4E50EAC1E1B4E4500ECCE04 /* TabbarVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A4E50E901E1B4A6700ECCE04 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A4E50E9C1E1B4B0600ECCE04 /* HomeVC.swift */,
+				A4E50E9D1E1B4B0600ECCE04 /* HomeVC.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A4E50E911E1B4A6E00ECCE04 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				A4E50EA01E1B4B1200ECCE04 /* SearchVC.swift */,
+				A4E50EA11E1B4B1200ECCE04 /* SearchVC.xib */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		A4E50E921E1B4A7400ECCE04 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				A4E50EA41E1B4B2100ECCE04 /* CalendarVC.swift */,
+				A4E50EA51E1B4B2100ECCE04 /* CalendarVC.xib */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		A4E50E931E1B4A8300ECCE04 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A4E50EA81E1B4B3000ECCE04 /* ProfileVC.swift */,
+				A4E50EA91E1B4B3000ECCE04 /* ProfileVC.xib */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +186,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E50EA31E1B4B1200ECCE04 /* SearchVC.xib in Resources */,
 				A4E50E881E1B4A2200ECCE04 /* LaunchScreen.storyboard in Resources */,
+				A4E50E9F1E1B4B0600ECCE04 /* HomeVC.xib in Resources */,
 				A4E50E851E1B4A2200ECCE04 /* Assets.xcassets in Resources */,
+				A4E50EAB1E1B4B3000ECCE04 /* ProfileVC.xib in Resources */,
+				A4E50EA71E1B4B2100ECCE04 /* CalendarVC.xib in Resources */,
 				A4E50E831E1B4A2200ECCE04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E50E801E1B4A2200ECCE04 /* ViewController.swift in Sources */,
+				A4E50EAA1E1B4B3000ECCE04 /* ProfileVC.swift in Sources */,
+				A4E50EA61E1B4B2100ECCE04 /* CalendarVC.swift in Sources */,
+				A4E50EAD1E1B4E4500ECCE04 /* TabbarVC.swift in Sources */,
+				A4E50EA21E1B4B1200ECCE04 /* SearchVC.swift in Sources */,
+				A4E50E9E1E1B4B0600ECCE04 /* HomeVC.swift in Sources */,
 				A4E50E7E1E1B4A2200ECCE04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
