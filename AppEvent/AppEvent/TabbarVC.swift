@@ -23,10 +23,14 @@ class TabbarVC: UITabBarController {
         let viewControllers = [homeVC, searchVC, calendarVC, profileVC]
         self.viewControllers = viewControllers
         
-        homeVC.tabBarItem = UITabBarItem.init(title: "", image: UIImage.init(named: "Home"), tag: 1)
-        searchVC.tabBarItem = UITabBarItem.init(title: "", image: UIImage.init(named: "Search"), tag: 2)
-        calendarVC.tabBarItem = UITabBarItem.init(title: "", image: UIImage.init(named: "Calendar"), tag: 3)
-        profileVC.tabBarItem = UITabBarItem.init(title: "", image: UIImage.init(named: "Profile"), tag: 4)
+        homeVC.tabBarItem = UITabBarItem.init(title: "Home", image: UIImage.init(named: "Home"),
+                                              tag: 1)
+        searchVC.tabBarItem = UITabBarItem.init(title: "Search", image: UIImage.init(named: "Search"),
+                                                tag: 2)
+        calendarVC.tabBarItem = UITabBarItem.init(title: "Calendar", image: UIImage.init(named: "Calendar"),
+                                                  tag: 3)
+        profileVC.tabBarItem = UITabBarItem.init(title: "Profile", image: UIImage.init(named: "Profile"),
+                                                 tag: 4)
         
         
     }
